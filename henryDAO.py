@@ -5,8 +5,8 @@ class HenryDAO:
         try:
             self.connection = mysql.connector.connect(
                 user='root',
-                passwd='Ap-197202',
-                database='comp3421',
+                passwd='xxx', #replace with your root password
+                database='xxx', #replace with the database you donwloaded Henry.sql into
                 host='127.0.0.1')
             self.cursor = self.connection.cursor()
             print("Database connection successful.")
